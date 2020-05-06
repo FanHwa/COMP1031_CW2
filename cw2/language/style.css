@@ -1,0 +1,11 @@
+.langtable tr td{
+	width:auto;
+	padding:5px 10px
+}
+.langtable th{
+	width:150px;
+}
+
+.langedit{
+	text-align:center;
+}

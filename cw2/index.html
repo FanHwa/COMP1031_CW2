@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main page</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="navbar">
+		<a href="index.html">Home</a>
+		<a href="city/city.php">City</a>
+		<a href="country/country.php">Country</a>
+		<a href="language/language.php">Language</a>
+		<a href="https://www.nottingham.edu.my/CorporateMarketing/Services/Service-Details/University-website.aspx" style="padding: 0px 0px"> <img src="nottingham_logo1.jpg" height="50" width="140"></a>
+	</div>
+	<div class="main">
+		<H2 style="text-align: center;width: 650px;">DataBase Assigment 2</H2>
+		<div class="tableSTUDENT">
+			<table>
+			<tr><th>Name</th>
+				<th>Student ID</th>
+			</tr>
+			<tr><td>Lee Kin Yip</td><td>20122166</td></tr>
+			<tr><td>Tan Fan Hwa</td><td>20108211</td></tr>
+			<tr><td>Fu Zi Jie</td><td>20102358</td></tr>
+			<tr><td>Ng Yao Hong</td><td>20107125</td></tr>
+			</table>
+			<H2 style="text-align: center; width:650px"> How to use our website.</H2>
+				<div  class="HowPage">
+				<p>
+				<H3><img src="NavTop.png" height = "80%" width="80%"></H3> 
+				<H3>This is an image of the top navigation bar.</H3>
+					Home      - is to return to this page.<br>
+					City      - is to access the City Database.<br>
+					Country   - is to access the Country Database.<br>
+					Language  - is to access the Language Database.<br>
+					UNMC Logo - is to go to the Nottingham Malaysia Home Page.<br>
+				</p>
+			</div>
+			<br>
+				<br>
+				<div  class="HowPage">
+				<p>
+					<H3>This is the City Database Page.</H3>
+					<a>Go to>> </a>
+					<a href="#cityInsert">Insert</a>&nbsp&nbsp&nbsp
+					<a href="#cityQuery">Query</a>&nbsp&nbsp&nbsp
+					<a href="#cityEdit">Edit</a>&nbsp&nbsp&nbsp
+					<a href="#cityDel">Delete</a>&nbsp&nbsp&nbsp
+					<br><br>
+				<img src="cityImage/CityPage.png" style=" border: 1px solid black;" height = "90%" width="90%"> </H3>
+					<!-- Insert -->
+					<H4 id="cityInsert">Insert Record Button</H4> This will trigger a popup when clicked that allows you to insert new information to the data.
+					Click on the cross on the top rigth of the popup to cancel the Insert.<br>
+					The pop up will look like this :
+					<br>
+					<br>
+					<img src="cityImage/CityInsert.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> 
+					<br>
+					Then key in your infromation in the correct feilds and click on submit.
+					If it was successsfull this tab will popup:<br> <br>
+					<img src="cityImage/InsertSuccessfull.png" style=" border: 1px solid black; margin-left: 165px" height = "50%" width="50%"> <br>
+					If it fails this will popup:<br><br>
+					<img src="cityImage/InsertFailed.png" style=" border: 1px solid black; margin-left: 165px" height = "50%" width="50%"> <br>
+					<br>
+					<br>
+					<!-- Query -->
+					<H4 id="cityQuery">Query Record Button</H4> This trigger a popup when clicked that allows you to insert key words to find in the DataBase.
+					Click on the cross on the top rigth of the popup to cancel the Query.<br>
+					The pop up will look like this :
+					<br> <br>
+					<img src="cityImage/CityQuery.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> 
+					<br>
+					If it was data was found this page will open and the page will tell you the amount of results found:<br> <br>
+					<img src="cityImage/CityQueryFound.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> <br>
+					If there is no data that contains any of the key words the page will tell you ther is no results and it will look likw this:<br><br>
+					<img src="cityImage/QueryNotFound.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> <br>
+					To go back to the City DataBase click on back that is located in the top navigation bar on the  left coner of the page.
+					<br>
+					<br>
+					<!-- Edit -->
+					<H4 id="cityEdit">Edit Button</H4> This open a page with the data of the line you click edit on.<br>
+					The page will look like this :
+					<br>
+					<br>
+					<img src="cityImage/CityEditButton.png" style=" border: 2px solid black;margin-left: 130px" height = "60%" width="60%"> 
+					<br>
+					<br>
+					Then key in your infromation in the correct feilds and click on submit.
+					There will be a popup that says Edited Successfully:<br><br>
+					<img src="cityImage/CityEditedSucces.png" style=" border: 1px solid black; margin-left: 165px" height = "50%" width="50%">
+					<br>
+					<br>
+					<!-- Delete -->
+					<H4 id="cityDel">Delete Button</H4> If you dont want the data you can click on the delete button to remove it from the database.<br>
+					There will be a popup if the data was deleted.<br>The popup looks like this:
+					<br>
+					<br>
+					<img src="cityImage/CityDeleteSuccessfull.png" style=" border: 1px solid black; margin-left: 165px" height = "50%" width="50%"> 
+					<br>
+					<br>
+					<H4>Next & Previous Page Button</H4>
+					Each page can only display 1000 datas. Therefore, there is a Next and Previous Page Button to show other datas. 
+				</p>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div  class="HowPage">
+				<H3>This is the Country Database Page.</H3>
+				Go to>>
+				<a href="#countryInsert">Insert</a>&nbsp&nbsp&nbsp
+				<a href="#countryQuery">Query</a>&nbsp&nbsp&nbsp
+				<a href="#countryEdit">Edit</a>&nbsp&nbsp&nbsp
+				<a href="#countryDel">Delete</a>&nbsp&nbsp&nbsp
+				<br><br>
+				<img src="countryImage/countryPage.png" style=" border: 1px solid black;" height = "90%" width="90%"> </H3>
+				<p>
+					<H4 id="countryInsert">Insert Record Button</H4> This will trigger a popup when clicked that allows you to insert new information to the data.
+					Click on the cross on the top rigth of the popup to cancel the Insert.<br>
+					The pop up will look like this :
+					<br>
+					<br>
+					<img src="countryImage/CountryInsert.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> 
+					<br>
+					Then key in your infromation in the correct feilds and click on submit.
+					If it was successsfull this tab will popup:<br> <br>
+					<img src="cityImage/InsertSuccessfull.png" style=" border: 1px solid black; margin-left: 165px" height = "50%" width="50%"> <br>
+					If it fails this will popup:<br><br>
+					<img src="cityImage/InsertFailed.png" style=" border: 1px solid black; margin-left: 165px" height = "50%" width="50%"> <br>
+					<br>
+					<br>
+					<!-- Query -->
+					<H4 id="countryQuery">Query Record Button</H4> This trigger a popup when clicked that allows you to insert key words to find in the DataBase.
+					Click on the cross on the top rigth of the popup to cancel the Query.<br>
+					The pop up will look like this :
+					<br> <br>
+					<img src="countryImage/countryQuery.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> 
+					<br>
+					If it was data was found this page will open and the page will tell you the amount of results found:<br> <br>
+					<img src="countryImage/CountryQueryFound.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> <br>
+					If there is no data that contains any of the key words the page will tell you ther is no results and it will look likw this:<br><br>
+					<img src="countryImage/CounrtyQueryNULL.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> <br>
+					To go back to the City DataBase click on back that is located in the top navigation bar on the  left coner of the page.
+					<br>
+					<br>
+					<!-- Edit -->
+					<H4 id="countryEdit">Edit Button</H4> This open a page with the data of the line you click edit on.<br>
+					Click back on the top navigation bar to go back to the country database page.
+					The page will look like this :
+					<br>
+					<br>
+					<img src="countryImage/CountryEditButton.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> 
+					<br>
+					Then key in your infromation in the correct feilds and click on submit.
+					There will be a popup that says Edited Successfully:<br><br>
+					<img src="cityImage/CityEditedSucces.png" style=" border: 1px solid black; margin-left: 165px" height = "50%" width="50%">
+					<br>
+					Click back on the top navigation bar to go back to the country database page.
+					<br>
+					<br>
+					<!-- Delete -->
+					<H4 id="countryDel">Delete Button</H4> If you dont want the data you can click on the delete button to remove it from the database.<br>
+					There will be a popup if the data was deleted.<br>The popup looks like this:
+					<br>
+					<br>
+					<img src="cityImage/CityDeleteSuccessfull.png" style=" border: 1px solid black; margin-left: 165px" height = "50%" width="50%">
+					<br>
+					<br>
+				</p>
+				<br>
+			</div>
+			<br>
+			<br>
+			<div  class="HowPage">
+				<H3>This is the Laguage Database Page.</H3>
+				Go to>>
+				<a href="#langInsert">Insert</a>&nbsp&nbsp&nbsp
+				<a href="#langQuery">Query</a>&nbsp&nbsp&nbsp
+				<a href="#langEdit">Edit</a>&nbsp&nbsp&nbsp
+				<a href="#langDel">Delete</a>&nbsp&nbsp&nbsp
+				<br><br>
+				<img src="LanguageImage/LanguagePage.png" style=" border: 1px solid black;" height = "90%" width="90%"> </H3>
+				<p>
+					<H4 id="langInsert">Insert Record Button</H4> This will trigger a popup when clicked that allows you to insert new information to the data.
+					Click on the cross on the top rigth of the popup to cancel the Insert.<br>
+					The pop up will look like this :
+					<br>
+					<br>
+					<img src="LanguageImage/LanguageInsert.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> 
+					<br>
+					Then key in your infromation in the correct feilds and click on submit.
+					If it was successsfull this tab will popup:<br> <br>
+					<img src="cityImage/InsertSuccessfull.png" style=" border: 1px solid black; margin-left: 165px" height = "50%" width="50%"> <br>
+					If it fails this will popup:<br><br>
+					<img src="cityImage/InsertFailed.png" style=" border: 1px solid black; margin-left: 165px" height = "50%" width="50%"> <br>
+					<br>
+					<br>
+					<!-- Query -->
+					<H4 id="langQuery">Query Record Button</H4> This trigger a popup when clicked that allows you to insert key words to find in the DataBase.
+					Click on the cross on the top rigth of the popup to cancel the Query.<br>
+					The pop up will look like this :
+					<br> <br>
+					<img src="LanguageImage/LanguageQuery.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> 
+					<br>
+					If it was data was found this page will open and the page will tell you the amount of results found:<br> <br>
+					<img src="LanguageImage/LanguageGotResult.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> <br>
+					If there is no data that contains any of the key words the page will tell you ther is no results and it will look likw this:<br><br>
+					<img src="LanguageImage/LanguageQueryNON.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> <br>
+					To go back to the City DataBase click on back that is located in the top navigation bar on the  left coner of the page.
+					<br>
+					<br>
+					<!-- Edit -->
+					<H4 id="langEdit">Edit Button</H4> This open a page with the data of the line you click edit on.<br>
+					Click back on the top navigation bar to go back to the country database page.
+					The page will look like this :
+					<br>
+					<br>
+					<img src="LanguageImage/LanguageEdit.png" style=" border: 1px solid black; margin-left: 130px" height = "60%" width="60%"> 
+					<br>
+					Then key in your infromation in the correct feilds and click on submit.
+					There will be a popup that says Edited Successfully:<br><br>
+					<img src="cityImage/CityEditedSucces.png" style=" border: 1px solid black; margin-left: 165px" height = "50%" width="50%">
+					<br>
+					Click back on the top navigation bar to go back to the country database page.
+					<br>
+					<br>
+					<!-- Delete -->
+					<H4 id="langDel">Delete Button</H4> If you dont want the data you can click on the delete button to remove it from the database.<br>
+					There will be a popup if the data was deleted.<br>The popup looks like this:
+					<br>
+					<br>
+					<img src="cityImage/CityDeleteSuccessfull.png" style=" border: 1px solid black; margin-left: 165px" height = "50%" width="50%">
+				</p>
+				<br>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+	</div>
+</body>	
+</html>

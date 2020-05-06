@@ -1,0 +1,16 @@
+.h{
+	color:black;
+
+}
+.noborder{
+	border:none;
+	color:white;
+}
+.countrytable{
+	padding :5%;
+}
+.citytable th,td{
+	border: 1px solid black;
+  	padding :8px 10px;
+  	width : auto;
+}

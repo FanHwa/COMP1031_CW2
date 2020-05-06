@@ -1,0 +1,20 @@
+.h{
+	color:white;
+
+}
+.noborder td{
+	border:none;
+	color:white;
+}
+.padding{
+	padding : 100px;
+}
+.citytable {
+	padding :5%;
+	table-layout: fixed;
+}
+
+.citytable th,td{
+	border: 1px solid black;
+  	padding :8px 10px;
+}

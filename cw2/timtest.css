@@ -1,0 +1,11 @@
+.tableSTUDENT table{
+  width: 500px;
+  table-layout: fixed;
+}
+.tableSTUDENT th {
+  height:20px;
+}
+
+.tableSTUDENT td {
+  padding-left: 10px;
+}
